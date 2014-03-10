@@ -1,0 +1,34 @@
+/* CSS crunched with Crunch - http://crunchapp.net/ */
+@import url(http://fonts.googleapis.com/css?family=Oleo+Script:400,700);
+.codehub-logo {
+  font-family: 'Oleo Script', cursive;
+  font-size: 30px;
+  text-align: center;
+}
+.bg-grey {
+  background-color: #4d4d4d;
+}
+.bg-greylight {
+  background-color: #f2f2f2;
+}
+.helper-no-padding {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.codehub-qa {
+  overflow-y: auto;
+}
+.codehub-qa h1 {
+  font-family: 'Oleo Script', cursive;
+}
+.codehub-qa .question,
+.codehub-qa .answer {
+  width: 100%;
+  padding: 10px 0px;
+  margin: 0;
+}
+
+.codehub-editor .control-panel {
+  padding-left: 10px;
+  height: 80px;
+}

@@ -1,0 +1,72 @@
+@import url(http://fonts.googleapis.com/css?family=Oleo+Script:400,700);
+@import "utility.less";
+
+@nav-height: 45px;
+@nav-border: 1px;
+@btn-xs-height: 28px;
+
+.codehub-logo {
+    font-family: 'Oleo Script', cursive;
+    font-size: 28px;
+    text-align: center;
+}
+
+.codehub-body {
+    .codehub-qa {
+        overflow-y: auto;
+        height: calc(~"100%" ~"-" @nav-height ~"-" @nav-border);
+        border-top: solid @nav-border grey;
+        //border-right: solid @nav-border grey;
+
+        .question {
+            
+        }
+
+        hr {
+            margin: 10px 0;
+        }
+
+        .title {
+            padding: 5px;
+            font-weight: 400;
+        }
+
+        .meta {
+            padding: 0 5px 0 0;
+            line-height: calc(@btn-xs-height - 2);
+        }
+
+        .content {
+            //width: 100%;
+            padding: 10px 0px;
+            margin: 0;
+        }
+
+        .preview {
+            margin: 10px 0px;
+            padding: 5px;
+            background-color: lighten(#000, 97%);
+        }
+    }
+    
+    .codehub-file-tabs {
+
+    }
+
+    .codehub-controls {
+        border-top: solid 1px grey;
+        padding: 5px;
+    }
+
+    .codehub-editor {
+        border-top: solid @nav-border grey;
+
+        #editor {
+            height: calc(~"100%" ~"-" @nav-height ~"-" @btn-xs-height ~"-" 10px ~"-" @nav-border~"-" @nav-border);
+        }
+        // .control-panel {
+        //     padding-left: 10px;
+        //     height: 80px;
+        // }
+    }
+}
